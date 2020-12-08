@@ -26,6 +26,6 @@ module SaleStore
   def self.parse_str(str)
     items = str.downcase.split(",").collect { |item| item.gsub(/\s+/, "") }
     
-    puts items, "items"
+    add_to_cart(items)
   end
 end
