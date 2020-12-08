@@ -8,8 +8,6 @@ module SaleStore
     apple: CreateSaleTable.add_item("apple", 0.89, 0.00, 0),
   }
 
-  p SALE_ITEMS
-
   def self.take_input
     puts "Please enter all the items purchased separated by a comma"
 
